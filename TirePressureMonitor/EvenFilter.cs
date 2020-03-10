@@ -13,6 +13,7 @@ namespace TirePressureMonitor
         private int sum;
         private Queue<int> gemListe = new Queue<int>();
         private List<int> normalListe;
+        private int t = 0;
 
 
         public int Filter(int Sample)
